@@ -1,2 +1,3 @@
-# Batocera.PLUS_Theme
+# Batocera.PLUS-Theme
 Batocera.PLUS default Theme
+

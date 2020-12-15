@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="menu, system, basic, detailed, Carousel, Boxes, Tiles, grid">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./main/iconset/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./main/inconset/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./main/inconset/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./main/iconset/arcade/a.png</iconA>
+			<iconB>./main/iconset/arcade/b.png</iconB>
+			<iconX>./main/iconset/arcade/x.png</iconX>
+			<iconY>./main/iconset/arcade/y.png</iconY>
+			<iconL>./main/iconset/arcade/l.png</iconL>
+			<iconR>./main/iconset/arcade/r.png</iconR>
+			<iconStart>./main/iconset/arcade/start.png</iconStart>
+			<iconSelect>./main/iconset/arcade/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+	
+</theme>

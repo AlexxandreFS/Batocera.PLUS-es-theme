@@ -1,0 +1,59 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<customView name="Boxes">
+      <imagegrid name="gamegrid">
+      <autoLayout>4 2</autoLayout>
+      </imagegrid>
+    </customView>
+
+	<view name="system">
+		<image name="background" extra="true">
+		</image>
+		<image name="console" extra="true">
+			<pos>0.02 0.30</pos>
+			<maxSize>0.24 0.24</maxSize>
+			<origin>0 1</origin>
+		</image>
+		<image name="game" extra="true">
+			<pos>0.29 0.30</pos>
+			<maxSize>0.16 0.16</maxSize>
+			<origin>0 1</origin>
+		 </image>
+		<image name="controller" extra="true">
+			<pos>0.78 0.30</pos>
+			<maxSize>0.15 0.25</maxSize>
+			<origin>1 1</origin>
+		</image>
+		<image name="band1" extra="true">
+			<color>24A9E2</color>
+		</image>
+		<image name="band2" extra="true">
+			<color>D1D1D1</color>
+		</image>
+		<image name="band3" extra="true">
+			<color>005C9A</color>
+		</image>
+		<image name="band4" extra="true">
+			<color>1E1C1A</color>
+		</image>
+		<text name="info1" extra="true">
+			<text>Developer / Manufacturer : Nintendo</text>
+			<pos>0.30 0.68</pos>
+		</text>
+		<text name="info2" extra="true">
+			<text>Year of Release : 2008</text>
+			<pos>0.30 0.70</pos>
+		</text>
+		<text name="info3" extra="true">
+			<text>Discontinued	: 2019</text>
+			<pos>0.30 0.72</pos>
+		</text>
+		<text name="info4" extra="true">
+			<text>WiiWare was a service that allowed Wii users to download games and applications specifically designed and developed for the Wii video game console made by Nintendo.
+These games and applications could only be purchased and downloaded from the Wii Shop Channel under the WiiWare section. Once the user had downloaded the game or application, it would appear in their Wii Menu or SD Card Menu as a new channel.
+WiiWare was a companion to the Virtual Console, which specializes in emulated games originally developed for other systems instead of original games.</text>
+			<pos>0.30 0.74</pos>
+		</text>
+	</view>
+</theme>

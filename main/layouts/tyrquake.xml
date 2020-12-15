@@ -1,0 +1,46 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<customView name="Boxes">
+    <imagegrid name="gamegrid">
+    <autoLayout>4 2</autoLayout>
+    </imagegrid>
+    </customView>
+
+	<view name="system">
+		<image name="background" extra="true">
+		</image>
+		<image name="console" extra="true">
+			<path>./art/console.svg</path>
+			<pos>0.02 0.30</pos>
+			<maxSize>0.45 0.25</maxSize>
+			<origin>0 1</origin>
+		</image>
+		<image name="controller" extra="true">
+			<path>./art/controller.svg</path>
+			<pos>0.78 0.30</pos>
+			<maxSize>0.15 0.25</maxSize>
+			<origin>1 1</origin>
+		</image>
+		<image name="band1" extra="true">
+			<color>33709F</color>
+		</image>
+		<image name="band2" extra="true">
+			<color>DFDED1</color>
+		</image>
+		<image name="band3" extra="true">
+			<color>D37112</color>
+		</image>
+		<image name="band4" extra="true">
+			<color>A63417</color>
+		</image>
+		<text name="info1" extra="true">
+			<text>Quake was a First Person Shooter series originally developed for the PC by Id Software. It is a successor to the Doom Series.
+There are 4 Quake games: Quake, Quake II, and Quake III Arena and Quake 4. RetroPie includes Quake, TyrQuake (an optimised build of the original Quake Engine), and Quake III Arena.
+The source code to the original Quake engine was released under the GPLv2 license on December 21st 1999. This has enabled a wide variety of source ports and improvements to be made and for the game to run on alternative operating systems and architectures.</text>
+			<pos>0.38 0.70</pos>
+			<size>0.40 0.20</size>
+			<lineSpacing>1.1</lineSpacing>
+		</text>
+	</view>
+</theme>

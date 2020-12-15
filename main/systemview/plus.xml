@@ -1,0 +1,70 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		
+		<image name="console" extra="true">
+		    <path>./main/plus/console/${system.theme}.svg</path>
+			<path>./main/plus/console/${system.theme}.png</path>
+			
+		</image>
+
+		<image name="game" extra="true">
+		    <path>./main/plus/game/${system.theme}.svg</path>
+			<path>./main/plus/game/${system.theme}.png</path>
+			
+		</image>
+			
+		<image name="controller" extra="true">
+			<path>./main/plus/controller/${system.theme}.svg</path>
+			<path>./main/plus/controller/${system.theme}.png</path>
+			
+		</image>
+		<image name="ControllerOverlay" extra="true">
+      <visible>false</visible>
+    </image>
+
+		<image name="band1" extra="true">
+			<size>0.03 1</size>
+			<pos>0.80 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band2" extra="true">
+			<size>0.03 1</size>
+			<pos>0.829 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band3" extra="true">
+			<size>0.03 1</size>
+			<pos>0.858 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band4" extra="true">
+			<size>0.03 1</size>
+			<pos>0.887 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+			<color>ff9900</color>
+			<alignment>left</alignment>
+			<fontPath>./main/midia/fonts/ubuntu_bold.ttf</fontPath>
+			<fontSize>0.017</fontSize>
+                        <forceUppercase>1</forceUppercase>
+			<size>0.5 0.04</size>
+			<zIndex>10</zIndex>
+		</text>
+	</view>
+
+</theme>
