@@ -39,7 +39,7 @@
       <tile>false</tile>
 	  <color>d3d3d3</color>
       <pos>0.22 0.45</pos>        
-      <size>0.27 0.15</size>
+      <size>0.27 0.17</size>
       <origin>0.5 0.5</origin>
       <path>./main/midia/logowheel.svg</path>      
       <zIndex>12</zIndex>
