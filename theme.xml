@@ -2,7 +2,7 @@
 <!--
 Theme: Batocera.plus 
 version: 2.0
-author: Marcio Renato Boufleuer
+authores: Caetano Ramos e Marcio Renato Boufleuer
 license: creative commons CC-BY-NC-SA
 
 ------------------------------------------------------------------
@@ -75,6 +75,7 @@ We leave here our thanks! ...
     <tilesViewName>Miniaturas</tilesViewName>
     <basicGridName>Caixas</basicGridName>
     <carouselViewName>Carrossel</carouselViewName>
+   <tilesViewName>adicionar</tilesViewName>
     <blue>Azul</blue>
     <red>Vermelho</red>
     <green>Verde</green>
@@ -108,6 +109,11 @@ We leave here our thanks! ...
     <include name="orange">./main/colors/orange.xml</include>
   </subset>
 -->
+
+
+
+
+
   <view name="system,basic,detailed,grid">
     <helpsystem name="help">
 	  <fontSize>0.03</fontSize>
@@ -160,14 +166,14 @@ We leave here our thanks! ...
     <!-- Used by random box need to be declared there -->
 
     <image name="box" extra="true">
-      <pos>0.50 0.18</pos>
+      <pos>0.18 0.81</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.24 0.24</maxSize>
       <zIndex>12</zIndex>
       <visible>false</visible>
     </image>
     <video name="videobox" extra="true">
-      <pos>0.50 0.18</pos>
+      <pos>0.18 0.81</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.24 0.24</maxSize>
       <visible>false</visible>
@@ -294,6 +300,7 @@ Année de sortie : ${system.releaseYear}</text>
   <!-- Subset options for screen -->
   <subset name="systemview" displayName="${systemViewName}">
     <include name="plus">./main/systemview/plus.xml</include>
+    <include name="arcade">./main/systemview/arcade.xml</include>
     <include name="horizontal">./main/systemview/horizontal.xml</include>
 	<include name="legacy" tinyScreen="false">./main/systemview/legacy.xml</include>
     <include name="transparent" tinyScreen="false">./main/systemview/transparent.xml</include>
@@ -380,9 +387,9 @@ Année de sortie : ${system.releaseYear}</text>
 	  <color>EEEEEE</color>
 	  <separatorColor>FEFEFE</separatorColor>
 	  <selectorColor>ff9900</selectorColor>
-	  <selectorColorEnd>DD7700</selectorColorEnd>
+	  <selectorColorEnd>ff9900</selectorColorEnd>
 	  <selectedColor>262626</selectedColor>
-	  <selectorGradientType>vertical</selectorGradientType>
+	  <selectorGradientType>horizontal</selectorGradientType>
 	</menuText>
     <menuTextSmall name="menutextsmall">
 	  <fontPath>./main/fonts/Exo2-RegularCondensed.otf</fontPath>
@@ -660,6 +667,11 @@ Année de sortie : ${system.releaseYear}</text>
 			<fontPath>./main/fonts/ubuntu_medium.ttf</fontPath>
 		</text>
 	</view>
+
+
+
+
+
 
 	<view name="detailed">
 		<image name="md_image">
@@ -953,6 +965,7 @@ Année de sortie : ${system.releaseYear}</text>
       <animateColorTime>350</animateColorTime>
     </ninepatch>
   </view>
+
   <customView name="Boxes" inherits="grid" displayName="${basicGridName}">
     <imagegrid name="gamegrid">
       <autoLayout>6 2</autoLayout>
@@ -973,6 +986,7 @@ Année de sortie : ${system.releaseYear}</text>
       <color>FFFF00B0</color>
     </image>
   </customView>
+
   <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
     <text name="md_name">
       <color>${baseColor}</color>
@@ -982,6 +996,7 @@ Année de sortie : ${system.releaseYear}</text>
       <glowColor>00000016</glowColor>
       <glowSize>4</glowSize>
     </text>
+
     <text name="md_developer">
       <color>808080ff</color>
       <pos>0.04 0.80</pos>
@@ -991,6 +1006,7 @@ Année de sortie : ${system.releaseYear}</text>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
     </text>
+
     <imagegrid name="gamegrid">
       <pos>0 0.16</pos>
       <size>1 0.774</size>
@@ -1002,6 +1018,7 @@ Année de sortie : ${system.releaseYear}</text>
       <centerSelection>true</centerSelection>
       <scrollLoop>true</scrollLoop>
     </imagegrid>
+
     <gridtile name="default">
       <padding>64 16</padding>
       <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
@@ -1010,26 +1027,31 @@ Année de sortie : ${system.releaseYear}</text>
       <imageColor>FFFFFFAA</imageColor>
       <reflexion>0.24 0.0</reflexion>
     </gridtile>
+
     <gridtile name="selected">
       <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
       <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
       <padding>64 16</padding>
     </gridtile>
+
     <text name="gridtile">
       <visible>false</visible>
       <color>80808080</color>
       <fontSize>0.016</fontSize>
       <size>1 0</size>
     </text>
+
     <text name="gridtile:selected">
       <color>FFFFFF00</color>
       <fontSize>0.035</fontSize>
       <size>1 0</size>
     </text>
+
     <ninepatch name="gridtile.background:selected">
       <animateColorTime>0</animateColorTime>
     </ninepatch>
   </customView>
+
   <customView name="Tiles" inherits="grid" displayName="${tilesViewName}">
     <imagegrid name="gamegrid">
       <autoLayout>3 2</autoLayout>
@@ -1039,6 +1061,7 @@ Année de sortie : ${system.releaseYear}</text>
       <showVideoAtDelay>800</showVideoAtDelay>
       <zIndex>10</zIndex>
     </imagegrid>
+
     <gridtile name="default">
       <backgroundImage/>
       <backgroundCenterColor>40404080</backgroundCenterColor>
@@ -1049,15 +1072,18 @@ Année de sortie : ${system.releaseYear}</text>
       <backgroundCornerSize>0 0</backgroundCornerSize>
       <backgroundCornerSize>0.06</backgroundCornerSize>
     </gridtile>
+
     <gridtile name="selected">
       <padding>5 5</padding>
       <imageColor>FFFFFFFF</imageColor>
       <backgroundCornerSize>0 0</backgroundCornerSize>
       <backgroundCornerSize>0.06</backgroundCornerSize>
     </gridtile>
+
     <image name="gridtile.image">
       <roundCorners>0.06</roundCorners>
     </image>
+
     <text name="gridtile">
       <color>D0D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
@@ -1070,12 +1096,14 @@ Année de sortie : ${system.releaseYear}</text>
       <glowColor>00000060</glowColor>
       <glowSize>1</glowSize>
     </text>
+
     <text name="gridtile:selected">
       <singleLineScroll>false</singleLineScroll>
       <color>${baseColor}</color>
       <glowColor>${glowColor}</glowColor>
       <glowSize>2</glowSize>
     </text>
+
     <image name="gridtile.favorite">
       <path>:/star_filled.svg</path>
       <pos>0.93 0.07</pos>
@@ -1084,10 +1112,12 @@ Année de sortie : ${system.releaseYear}</text>
       <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF0080</color>
     </image>
+
     <image name="gridtile.favorite:selected">
       <color>FFFF00D0</color>
     </image>
   </customView>
+
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
     <include name="colored" displayName="${colored}">./main/systemview/colorhelp.xml</include>
