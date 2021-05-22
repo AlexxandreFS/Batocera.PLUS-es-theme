@@ -55,7 +55,7 @@
 	  </image>	
 
     <text name="systemInfo">
-      <pos>0.00 0.57</pos>
+      <pos>0.09 0.57</pos>
       <size>1 0.00</size>
       <backgroundColor>0000FF00</backgroundColor>
       <color>${baseColor}</color>

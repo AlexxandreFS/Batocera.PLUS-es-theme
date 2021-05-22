@@ -10,14 +10,27 @@
     </image>   
 
     <video name="videobox" extra="true">
-      <pos>0.675 0.40</pos>
-      <maxSize>0.40 0.55</maxSize>
-    </video>   
+      <pos>0.59 0.28</pos>
+      <origin>0.5 0.5</origin>
+	<size>0.39 0.39</size>
+
+      <visible>false</visible>
+      <zIndex>12</zIndex>
+    </video>  
 
    <image name="logo">
       <!-- if system2 exists, take this version -->
       <path>./../../${system.theme}/main/system2.svg</path>
     </image>
+
+		<image name="image" extra="true">
+		    <path>./main/consoles/${system.theme}.svg</path>
+			<path>./main/consoles/${system.theme}.png</path>
+			<pos>0.06 0.70</pos>
+			<maxSize>0.30 0.30</maxSize>
+			<origin>0 1</origin>
+
+		</image>
 	
     <carousel name="systemcarousel">
       <maxLogoCount>1</maxLogoCount>

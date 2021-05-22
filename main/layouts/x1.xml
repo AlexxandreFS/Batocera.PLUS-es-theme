@@ -37,31 +37,31 @@
 		</image>
 		<text name="info1" extra="true">
 			<text>Developer / Manufacturer : Sharp</text>
-			<pos>0.30 0.70</pos>
+			<pos>0.38 0.70</pos>
 		</text>
 		<text name="info2" extra="true">
 			<text>Year of Release : 1982</text>
-			<pos>0.30 0.72</pos>
+			<pos>0.38 0.72</pos>
 		</text>
 		<text name="info3" extra="true">
 			<text>CPU : Sharp Z80 A</text>
-			<pos>0.30 0.76</pos>
+			<pos>0.38 0.76</pos>
 		</text>
 		<text name="info4" extra="true">
 			<text>RAM : 64 KB RAM, 4-48KB Video RAM</text>
-			<pos>0.30 0.78</pos>
+			<pos>0.38 0.78</pos>
 		</text>
 		<text name="info5" extra="true">
 			<text>Graphics : 320×200 / 640×200</text>
-			<pos>0.30 0.80</pos>
+			<pos>0.38 0.80</pos>
 		</text>
 		<text name="info6" extra="true">
 			<text>Storage : 6KB ROM</text>
-			<pos>0.30 0.82</pos>
+			<pos>0.38 0.82</pos>
 		</text>
 		<text name="info7" extra="true">
 			<text>Media : Cassette tape or floppy disk</text>
-			<pos>0.30 0.84</pos>
+			<pos>0.38 0.84</pos>
 		</text>
 
 

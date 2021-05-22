@@ -37,27 +37,27 @@
 		</image>
 		<text name="info1" extra="true">
 			<text>Developer / Manufacturer : Epoch Co.</text>
-			<pos>0.30 0.70</pos>
+			<pos>0.38 0.70</pos>
 		</text>
 		<text name="info2" extra="true">
 			<text>Year of Release : 1984</text>
-			<pos>0.30 0.72</pos>
+			<pos>0.38 0.72</pos>
 		</text>
 		<text name="info3" extra="true">
 			<text>CPU : 8-bit NEC µPD7801G</text>
-			<pos>0.30 0.76</pos>
+			<pos>0.38 0.76</pos>
 		</text>
 		<text name="info4" extra="true">
 			<text>RAM : 128 bytes RAM, 4kB VRAM</text>
-			<pos>0.30 0.78</pos>
+			<pos>0.38 0.78</pos>
 		</text>
 		<text name="info5" extra="true">
 			<text>Graphics : 309×246 resolution, 16 colors</text>
-			<pos>0.30 0.80</pos>
+			<pos>0.38 0.80</pos>
 		</text>
 		<text name="info6" extra="true">
 			<text>Media : ROM cartridge</text>
-			<pos>0.30 0.82</pos>
+			<pos>0.38 0.82</pos>
 		</text>
 
 

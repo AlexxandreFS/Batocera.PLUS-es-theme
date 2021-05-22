@@ -1,21 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-	<formatVersion>4</formatVersion>
+  <formatVersion>7</formatVersion>
+
+  <subset name="systembackground" displayName="${systemBackgroundName}">
+
+    <include name="mini random video">./main/systemsbk/smallvideo.xml</include>
+  </subset>
+
+
+  <view name="system">
+
+		<image name="console" extra="true">
+		    <path>./main/plus/console/${system.theme}.svg</path>
+			<path>./main/plus/console/${system.theme}.png</path>
+			<visible>false</visible>
+			
+		</image>
+
+		<image name="image" extra="true">
+		    <path>./main/consoles/${system.theme}.svg</path>
+			<path>./main/consoles/${system.theme}.png</path>
+			<pos>0.18 0.60</pos>
+			<maxSize>0.35 0.35</maxSize>
+			<origin>0 1</origin>
+
+		</image>
+
+		<image name="crt" extra="true">
+      <pos>0.74 0.60</pos>
+      <origin>0.5 0.5</origin>
+	<size>0.24 0.24</size>
+			<path>./main/midia/scanlines.png</path>
+			<color>FFFFFF60</color>
+			<tile>true</tile>
+      <zIndex>15</zIndex>
+		</image>
+
+
+
+
+    <!-- When random box -->
+    <image name="box" extra="true">
+      <default>./main/midia/novideo.png</default>
+      <pos>0.74 0.60</pos>
+      <maxSize>0.30 0.30</maxSize>
+    </image>
+
+    <video name="videobox" extra="true">
+      <default>./main/midia/novideo.png</default>
+      <pos>0.74 0.60</pos>
+      <origin>0.5 0.5</origin>
+	<size>0.24 0.24</size>
+
+
+      <zIndex>12</zIndex>
+    </video>
+
+
+
+	<image name="background" extra="true">
+	 <path>./main/midia/fundo.png</path>
+	 <origin>0 0</origin>
+	 <pos>0 0</pos>
+	 <size>1 1</size>
+	 <color>ffffffff</color>
+	 <zIndex>5</zIndex>
+	  </image>	
+
+
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../${system.theme}/art/system2.svg</path>
+    </image>
+
+			<carousel name="systemcarousel">
+                                <type>vertical</type> <!-- vertical_wheel -->
+				<pos>0.24 -0.27</pos>   <!-- direito up- ou down+ !!!! esquerdo left- ou right+ -->
+				<size>1 1</size>
+				<origin>0 0</origin>
+				<color>FFFFFF00</color>
+				<colorEnd>FFFFFF00</colorEnd>
+				<logoScale>1.5</logoScale>
+				<logoSize>0.18 0.19</logoSize><!-- 0.2 0.2 só aumentar o tamanho que as logos no carrossel aparecem -->
+				<logoRotation>-7.6</logoRotation>
+				<logoRotationOrigin>3.5 0.3</logoRotationOrigin>
+				<logoAlignment>center</logoAlignment> 
+				<maxLogoCount>1</maxLogoCount>
+				<zIndex>75</zIndex>
+			</carousel>
+
+
+
+
+		<image name="band1" extra="true">
+			<size>0.03 1</size>
+			<pos>0.020 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band2" extra="true">
+			<size>0.03 1</size>
+			<pos>0.050 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band3" extra="true">
+			<size>0.03 1</size>
+			<pos>0.08 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="band4" extra="true">
+			<size>0.03 1</size>
+			<pos>0.109 0</pos>
+			<origin>0 0</origin>
+			<path>./main/midia/band.png</path>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="console" extra="true">
+		    <path>./main/plus/console/${system.theme}.svg</path>
+			<path>./main/plus/console/${system.theme}.png</path>
+
+			
+		</image>
+
+		<image name="ControllerOverlay" extra="true">
+      <visible>false</visible>
+    </image>
+
+
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+			<color>ff9900</color>
+			<alignment>left</alignment>
+			<fontPath>./main/fonts/ubuntu_bold.ttf</fontPath>
+			<fontSize>0.017</fontSize>
+			<pos>0.30 0.347</pos>
+                        <forceUppercase>1</forceUppercase>
+			<size>0.5 0.04</size>
+      <visible>false</visible>
+		</text>
+
+
 	
-	<view name="menu, system, basic, detailed, Carousel, Boxes, Tiles, grid">
-		<helpsystem name="help">
-			<iconColor>FFFFFFFF</iconColor>
-			<iconUpDown>./main/iconset/arcade/updown.png</iconUpDown>
-			<iconLeftRight>./main/inconset/arcade/leftright.png</iconLeftRight>
-			<iconUpDownLeftRight>./main/inconset/arcade/all.png</iconUpDownLeftRight>
-			<iconA>./main/iconset/arcade/a.png</iconA>
-			<iconB>./main/iconset/arcade/b.png</iconB>
-			<iconX>./main/iconset/arcade/x.png</iconX>
-			<iconY>./main/iconset/arcade/y.png</iconY>
-			<iconL>./main/iconset/arcade/l.png</iconL>
-			<iconR>./main/iconset/arcade/r.png</iconR>
-			<iconStart>./main/iconset/arcade/start.png</iconStart>
-			<iconSelect>./main/iconset/arcade/select.png</iconSelect>
-		</helpsystem>		
-	</view>
-	
+
+    <text name="systemInfo">
+      <pos>-0.175 0.647</pos>
+      <size>1 0.00</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${baseColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.0 0.0</reflexion>
+    </text>
+<!--
+    <image name="CenterFade" extra="true"  tinyScreen="false">
+      <tile>false</tile>
+      <size>0.40 1</size>
+      <pos>0.2 1</pos>
+      <origin>1 1</origin>
+      <path>./main/midia/centerfade_v.png</path>
+      <color></color>
+      <zIndex>11</zIndex>
+    </image>
+-->
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+      <pos>0.675 0.40</pos>
+      <size>0.4 0</size>
+    </image>
+
+
+  </view>
 </theme>
