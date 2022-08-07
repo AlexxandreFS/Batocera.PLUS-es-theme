@@ -1,52 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <theme>
-	<formatVersion>4</formatVersion>
-	
-	<customView name="Boxes">
-    <imagegrid name="gamegrid">
-    <autoLayout>4 2</autoLayout>
-    </imagegrid>
+    <formatVersion>4</formatVersion>
+
+    <customView name="Boxes">
+        <imagegrid name="gamegrid">
+            <autoLayout>4 2</autoLayout>
+        </imagegrid>
     </customView>
 
-	<view name="system">
-		<image name="background" extra="true">
-		</image>
-		<image name="console" extra="true">
-			<path>./art/console.svg</path>
-			<pos>0.02 0.30</pos>
-			<maxSize>0.30 0.15</maxSize>
-			<origin>0 1</origin>
-		</image>
-		<image name="controller" extra="true">
-			<path>./art/controller.svg</path>
-			<pos>0.78 0.30</pos>
-			<maxSize>0.15 0.25</maxSize>
-			<origin>1 1</origin>
-		</image>
-		<image name="band1" extra="true">
-			<color>ff004d</color>
-		</image>
-		<image name="band2" extra="true">
-			<color>29adff</color>
-		</image>
-		<image name="band3" extra="true">
-			<color>fff1e8</color>
-		</image>
-		<image name="band4" extra="true">
-			<color>00e436</color>
-		</image>
-		<text name="info1" extra="true">
-			<text>Developer : Lexaloffle Games</text>
-			<pos>0.38 0.72</pos>
-		</text>
-		<text name="info2" extra="true">
-			<text>Year of Release : 2015</text>
-			<pos>0.38 0.74</pos>
-		</text>
-		<text name="info3" extra="true">
-			<text>The Pico-8 (stylized as PICO-8) is a virtual machine and game engine created by Lexaloffle Games. It is designed to mimic a "fantasy video game console,"[2] by emulating the harsh hardware limitations of the video game consoles around the 1980s. The goal of this is to spur one's creativity and ingenuity in producing games, and avoid being overwhelmed with the many possibilities of modern tools and machines. Such a design also allows Pico-8 games to have a familiar look and feel</text>
-			<pos>0.38 0.78</pos>
-			<size>0.40 0.20</size>
-			<lineSpacing>1.1</lineSpacing>
-		</text>
-	</view>
+    <view name="system">
+        <image name="background" extra="true">
+        </image>
+
+        <image name="console" extra="true">
+            <path>./art/console.svg</path>
+            <pos>0.02 0.30</pos>
+            <maxSize>0.30 0.15</maxSize>
+            <origin>0 1</origin>
+        </image>
+
+        <image name="controller" extra="true">
+            <path>./art/controller.svg</path>
+            <pos>0.78 0.30</pos>
+            <maxSize>0.15 0.25</maxSize>
+            <origin>1 1</origin>
+        </image>
+
+        <image name="band1" extra="true">
+            <color>ff004d</color>
+        </image>
+
+        <image name="band2" extra="true">
+            <color>29adff</color>
+        </image>
+
+        <image name="band3" extra="true">
+            <color>fff1e8</color>
+        </image>
+
+        <image name="band4" extra="true">
+            <color>00e436</color>
+        </image>
+
+        <text name="info1" extra="true">
+            <text>Developer : Lexaloffle Games</text>
+            <pos>0.38 0.72</pos>
+        </text>
+
+        <text name="info2" extra="true">
+            <text>Year of Release : 2015</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>The Pico-8 (stylized as PICO-8) is a virtual machine and game engine created by Lexaloffle Games. It is designed to mimic a "fantasy video game console,"[2] by emulating the harsh hardware limitations of the video game consoles around the 1980s. The goal of this is to spur one's creativity and ingenuity in producing games, and avoid being overwhelmed with the many possibilities of modern tools and machines. Such a design also allows Pico-8 games to have a familiar look and feel</text>
+            <pos>0.38 0.78</pos>
+            <size>0.40 0.20</size>
+            <lineSpacing>1.1</lineSpacing>
+        </text>
+    </view>
 </theme>

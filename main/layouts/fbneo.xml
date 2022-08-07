@@ -1,38 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <theme>
-	<formatVersion>4</formatVersion>
+    <formatVersion>4</formatVersion>
 
-	<view name="system">
-		<image name="background" extra="true">
-		</image>
-		<image name="console" extra="true">
-			<pos>0.02 0.30</pos>
-			<maxSize>0.12 0.25</maxSize>
-			<origin>0 1</origin>
-		</image>
-		<image name="controller" extra="true">
-			<pos>0.78 0.30</pos>
-			<maxSize>0.15 0.25</maxSize>
-			<origin>1 1</origin>
-		</image>
-		<image name="band1" extra="true">
-			<color>0000ff</color>
-		</image>
-		<image name="band2" extra="true">
-			<color>054f77</color>
-		</image>
-		<image name="band3" extra="true">
-			<color>58afd5</color>
-		</image>
-		<image name="band4" extra="true">
-			<color>FFFFFF</color>
-		</image>
-		<text name="info1" extra="true">
-			<text>Final Burn Neo (FBN/FBNeo) is the follow-up of Final Burn Alpha (FBA/FBAlpha), an alternative to MAME for arcade emulation.
+    <customView name="Boxes">
+        <imagegrid name="gamegrid">
+            <autoLayout>4 2</autoLayout>
+        </imagegrid>
+    </customView>
+
+    <view name="system">
+        <image name="background" extra="true">
+        </image>
+
+        <image name="console" extra="true">
+            <pos>0.02 0.30</pos>
+            <maxSize>0.12 0.25</maxSize>
+            <origin>0 1</origin>
+        </image>
+
+        <image name="controller" extra="true">
+            <pos>0.78 0.30</pos>
+            <maxSize>0.15 0.25</maxSize>
+            <origin>1 1</origin>
+        </image>
+
+        <image name="band1" extra="true">
+            <color>0000ff</color>
+        </image>
+
+        <image name="band2" extra="true">
+            <color>054f77</color>
+        </image>
+
+        <image name="band3" extra="true">
+            <color>58afd5</color>
+        </image>
+
+        <image name="band4" extra="true">
+            <color>FFFFFF</color>
+        </image>
+
+        <text name="info1" extra="true">
+            <text>Final Burn Neo (FBN/FBNeo) is the follow-up of Final Burn Alpha (FBA/FBAlpha), an alternative to MAME for arcade emulation.
 It’s more focused on playability and less on accuracy/preservation. The team is composed of dink, iq_132, JacKc, kev and me. It supports most libretro features (netplay, runahead, retroachievements.)
-and is part of the libretro steam launch lineup.</text>
-			<pos>0.38 0.72</pos>
-			<size>0.40 0.20</size>
-			<lineSpacing>1.1</lineSpacing>
-		</text>
-	</view>
+and is part of the libretro steam launch lineup.
+            </text>
+            <pos>0.38 0.72</pos>
+            <size>0.40 0.20</size>
+            <lineSpacing>1.1</lineSpacing>
+        </text>
+    </view>
 </theme>

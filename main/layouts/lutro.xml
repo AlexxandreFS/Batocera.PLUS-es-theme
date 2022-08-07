@@ -1,44 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <theme>
-	<formatVersion>4</formatVersion>
-	
-	<customView name="Boxes">
-    <imagegrid name="gamegrid">
-      <autoLayout>4 2</autoLayout>
-    </imagegrid>
-  </customView>
+    <formatVersion>4</formatVersion>
 
-	<view name="system">
-		<image name="background" extra="true">
-		</image>
-		
-		<image name="console" extra="true">
-			<pos>0.02 0.30</pos>
-			<maxSize>0.25 0.30</maxSize>
-			<origin>0 1</origin>
-		</image>
-		<image name="game" extra="true">
-			<pos>0.30 0.30</pos>
-			<maxSize>0.13 0.13</maxSize>
-			<origin>0 1</origin>
-		</image>
-		
-		<image name="band1" extra="true">
-			<color>74282b</color>
-		</image>
-		<image name="band2" extra="true">
-			<color>ae353a</color>
-		</image>
-		<image name="band3" extra="true">
-			<color>F2D8B5</color>
-		</image>
-		<image name="band4" extra="true">
-			<color>00007f</color>
-		</image>
-		<text name="info1" extra="true">
-			<text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
-			<pos>0.38 0.72</pos>
-			<size>0.40 0.20</size>
-			<lineSpacing>1.1</lineSpacing>
-		</text>
-	</view>
+    <customView name="Boxes">
+        <imagegrid name="gamegrid">
+            <autoLayout>4 2</autoLayout>
+        </imagegrid>
+    </customView>
+
+    <view name="system">
+        <image name="background" extra="true">
+        </image>
+
+        <image name="console" extra="true">
+            <pos>0.02 0.30</pos>
+            <maxSize>0.25 0.30</maxSize>
+            <origin>0 1</origin>
+        </image>
+
+        <image name="game" extra="true">
+            <pos>0.30 0.30</pos>
+            <maxSize>0.13 0.13</maxSize>
+            <origin>0 1</origin>
+        </image>
+
+        <image name="band1" extra="true">
+            <color>74282b</color>
+        </image>
+
+        <image name="band2" extra="true">
+            <color>ae353a</color>
+        </image>
+
+        <image name="band3" extra="true">
+            <color>F2D8B5</color>
+        </image>
+
+        <image name="band4" extra="true">
+            <color>00007f</color>
+        </image>
+
+        <text name="info1" extra="true">
+            <text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
+            <pos>0.38 0.72</pos>
+            <size>0.40 0.20</size>
+            <lineSpacing>1.1</lineSpacing>
+        </text>
+    </view>
 </theme>

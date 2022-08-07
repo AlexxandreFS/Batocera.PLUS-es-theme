@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <theme>
-  <formatVersion>7</formatVersion>
-  
-  <customView name="Boxes,grid">
-   <gridtile name="default">
-      <imageSizeMode>minSize</imageSizeMode>
-    </gridtile>
-  </customView>
-  
+    <formatVersion>7</formatVersion>
+
+    <customView name="Boxes,grid">
+        <gridtile name="default">
+            <imageSizeMode>minSize</imageSizeMode>
+        </gridtile>
+    </customView>
 </theme>

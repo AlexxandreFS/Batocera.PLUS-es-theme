@@ -1,85 +1,82 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <theme>
-  <formatVersion>7</formatVersion>
-  <view name="system">
-  
-   <!-- When random box -->
-    <image name="box" extra="true">
-      <pos>0.675 0.40</pos>
-      <maxSize>0.40 0.55</maxSize>
-    </image>   
+    <formatVersion>7</formatVersion>
 
-    <video name="videobox" extra="true">
-      <pos>0.59 0.28</pos>
-      <origin>0.5 0.5</origin>
-	<size>0.39 0.39</size>
+    <view name="system">
+        <!-- When random box -->
+        <image name="box" extra="true">
+            <pos>0.675 0.40</pos>
+            <maxSize>0.40 0.55</maxSize>
+        </image>
 
-      <visible>false</visible>
-      <zIndex>12</zIndex>
-    </video>  
+        <video name="videobox" extra="true">
+            <pos>0.59 0.28</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.39 0.39</size>
+            <visible>false</visible>
+            <zIndex>12</zIndex>
+        </video>
 
-   <image name="logo">
-      <!-- if system2 exists, take this version -->
-      <path>./../../${system.theme}/main/system2.svg</path>
-    </image>
+        <image name="logo">
+            <!-- if system2 exists, take this version -->
+            <path>./../../${system.theme}/main/system2.svg</path>
+        </image>
 
-		<image name="image" extra="true">
-		    <path>./main/consoles/${system.theme}.svg</path>
-			<path>./main/consoles/${system.theme}.png</path>
-			<pos>0.06 0.70</pos>
-			<maxSize>0.30 0.30</maxSize>
-			<origin>0 1</origin>
+        <image name="image" extra="true">
+            <path>./main/consoles/${system.theme}.svg</path>
+            <path>./main/consoles/${system.theme}.png</path>
+            <pos>0.06 0.70</pos>
+            <maxSize>0.30 0.30</maxSize>
+            <origin>0 1</origin>
+        </image>
 
-		</image>
-	
-    <carousel name="systemcarousel">
-      <maxLogoCount>1</maxLogoCount>
-      <type>horizontal</type>
-      <defaultTransition>slide</defaultTransition>
-      <pos>0.04 -0.5</pos>
-      <size>0.34 1.435</size>
-      <color>00000000</color>
-      <colorEnd>00000000</colorEnd>-->
-    </carousel>
+        <carousel name="systemcarousel">
+            <maxLogoCount>1</maxLogoCount>
+            <type>horizontal</type>
+            <defaultTransition>slide</defaultTransition>
+            <pos>0.04 -0.5</pos>
+            <size>0.34 1.435</size>
+            <color>00000000</color>
+            <colorEnd>00000000</colorEnd>-->
+        </carousel>
 
-    <text name="systemInfo">
-      <pos>0.04 0.67</pos>
-      <size>0.34 0.25</size>
-	  <backgroundColor>0000FF00</backgroundColor>
-      <color>${baseColor}</color>
-      <glowColor>${glowColor}</glowColor>
-      <glowSize>2</glowSize>
-      <reflexion>0.0 0.0</reflexion>
-    </text>
+        <text name="systemInfo">
+            <pos>0.04 0.67</pos>
+            <size>0.34 0.25</size>
+            <backgroundColor>0000FF00</backgroundColor>
+            <color>${baseColor}</color>
+            <glowColor>${glowColor}</glowColor>
+            <glowSize>2</glowSize>
+            <reflexion>0.0 0.0</reflexion>
+        </text>
 
-    <image name="CenterFade" extra="true">
-      <tile>false</tile>
-      <pos>0.5 0</pos>
-      <size>1 0.2</size>
-      <origin>0.5 0.5</origin>
-      <path>./main/midia/centerfade.png</path>
-      <color>04082a</color>
-      <visible>true</visible>
-    </image>
+        <image name="CenterFade" extra="true">
+            <tile>false</tile>
+            <pos>0.5 0</pos>
+            <size>1 0.2</size>
+            <origin>0.5 0.5</origin>
+            <path>./main/midia/centerfade.png</path>
+            <color>04082a</color>
+            <visible>true</visible>
+        </image>
 
-    <image name="CenterFade2" extra="true">
-      <tile>false</tile>
-      <pos>0.5 1</pos>
-      <size>1 0.25</size>
-      <origin>0.5 0.5</origin>
-      <path>./main/midia/centerfade.png</path>
-      <color>0764a1</color>
-      <visible>true</visible>
-    </image>
-	
-	 <image name="darkwheel" extra="static" tinyScreen="false">
-      <tile>false</tile>
-      <pos>0.21 0.2175</pos>
-      <size>0.36 0.285</size>
-      <origin>0.5 0.5</origin>
-      <path>./main/midia/darkwheel.png</path>      
-      <zIndex>12</zIndex>
-    </image>
+        <image name="CenterFade2" extra="true">
+            <tile>false</tile>
+            <pos>0.5 1</pos>
+            <size>1 0.25</size>
+            <origin>0.5 0.5</origin>
+            <path>./main/midia/centerfade.png</path>
+            <color>0764a1</color>
+            <visible>true</visible>
+        </image>
 
-  </view>
+        <image name="darkwheel" extra="static" tinyScreen="false">
+            <tile>false</tile>
+            <pos>0.21 0.2175</pos>
+            <size>0.36 0.285</size>
+            <origin>0.5 0.5</origin>
+            <path>./main/midia/darkwheel.png</path>
+            <zIndex>12</zIndex>
+       </image>
+    </view>
 </theme>

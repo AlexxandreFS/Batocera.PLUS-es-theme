@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
-Theme: Batocera.plus 
+Theme:   Batocera.PLUS
 version: 2.1
-author: Caetano Ramos, Marcio Renato Boufleuer
+author:  Caetano Ramos, Marcio Renato Boufleuer
 license: creative commons CC-BY-NC-SA
 
 ------------------------------------------------------------------
@@ -18,6 +18,7 @@ We leave here our thanks! ...
 
 <theme defaultView="detailed">
     <formatVersion>7</formatVersion>
+
     <variables>
         <baseColor>ff9900</baseColor>
         <gradientEndColor></gradientEndColor>
@@ -100,7 +101,7 @@ We leave here our thanks! ...
         <subset.shader>Efeitos de TV</subset.shader>
     </variables>
 
-    <!-- Subset options for color 
+    <!-- Subset options for color
     <subset name="colorset" displayName="${subset.colorset}">
         <include name="blue" displayName="${blue}">./main/colors/blue.xml</include>
         <include name="red" displayName="${red}"/>
@@ -114,11 +115,11 @@ We leave here our thanks! ...
 
     <view name="system,basic,detailed,grid">
         <helpsystem name="help">
-        <fontSize>0.03</fontSize>
-        <pos>0.01 0.965</pos>
-        <textColor>ececec</textColor>
-        <iconColor>ff9900</iconColor>
-    </helpsystem>
+            <fontSize>0.03</fontSize>
+            <pos>0.01 0.965</pos>
+            <textColor>ececec</textColor>
+            <iconColor>ff9900</iconColor>
+        </helpsystem>
     </view>
 
     <view name="system">
@@ -247,7 +248,7 @@ We leave here our thanks! ...
             <path>./main/logos/${system.theme}-${lang}.png</path>
 
             <path>./main/logos/${system.theme}-${lang}.svg</path>
-            <!-- 
+            <!--
             <path>/userdata/themes/${system.theme}/main/${system}.png</path>
             <path>/userdata/themes/${system.theme}/main/${system}.svg</path>
             <path>/userdata/themes/${system.theme}/main/${system}-${lang}.png</path>
@@ -271,8 +272,8 @@ We leave here our thanks! ...
             <tile>false</tile>
             <pos>0 1</pos>
             <origin>0 1</origin>
-        <size>1 0.05</size>
-        <path>./main/midia/footer.png</path>
+            <size>1 0.05</size>
+            <path>./main/midia/footer.png</path>
             <zIndex>50</zIndex>
         </image>
 
@@ -363,7 +364,7 @@ Année de sortie : ${system.releaseYear}</text>
             <color>ff9900</color>
             <activityColor>A0A0FFC0</activityColor>
             <hotkeyColor>FFA0A0C0</hotkeyColor>
-           <horizontalAlignment>right</horizontalAlignment>
+            <horizontalAlignment>right</horizontalAlignment>
         </controllerActivity>
 
         <!--
@@ -392,9 +393,9 @@ Année de sortie : ${system.releaseYear}</text>
 
     <view name="menu">
         <menuText name="menutitle">
-          <fontPath>./main/fonts/Exo2-BoldCondensed.otf</fontPath>
-          <fontSize>0.042</fontSize>
-          <color>FFFFFF</color>
+            <fontPath>./main/fonts/Exo2-BoldCondensed.otf</fontPath>
+            <fontSize>0.042</fontSize>
+            <color>FFFFFF</color>
         </menuText>
 
         <menuText name="menufooter">
@@ -872,7 +873,7 @@ Année de sortie : ${system.releaseYear}</text>
             <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
             <pos>0.18 0.095</pos>
             <origin>0.5 0.5</origin>
-           <maxSize>0.3 0.12</maxSize>
+            <maxSize>0.3 0.12</maxSize>
         </image>
 
         <image name="logo" region="eu"></image>
