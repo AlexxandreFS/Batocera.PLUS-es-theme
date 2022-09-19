@@ -57,37 +57,42 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>CPU : Amtel ATmega644 microcontroller @ 28.6 Mhz</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : Freeware</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>RAM : 4 K</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Sixth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Program Memory : 64 K</text>
-            <pos>0.38 0.80</pos>
+            <text>CPU : Amtel ATmega644 microcontroller @ 28.6 Mhz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Sound : 8-bit mono, mixed at ~15Khz and output via PWM</text>
-            <pos>0.38 0.82</pos>
+            <text>RAM : 4 K</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Resolution : 360×224 pixels in tiles-only mode</text>
-            <pos>0.38 0.84</pos>
+            <text>ROM : 64 KB</text>
+            <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Colors : 256 </text>
-            <pos>0.38 0.86</pos>
+            <text>Graphics : No hardware video acceleration informed</text>
+            <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Media : SD Memory Card</text>
+            <text>Sound : 8-bit mono, mixed at ~15Khz and output via PWM</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 360×224 pixels in tiles-only mode (256 colors)</text>
             <pos>0.38 0.88</pos>
         </text>
     </view>

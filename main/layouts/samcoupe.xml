@@ -47,47 +47,52 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Developer : Miles Gordon Technology</text>
+            <text>Manufacturer/ Developer : Miles Gordon Technology</text>
             <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
-            <text>Manufacturer : Miles Gordon Technology</text>
+            <text>Year of Release : 1989</text>
             <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>OS : SAM BASIC</text>
+            <text>Units sold : 12 Thousand</text>
             <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Year of Release : 1989</text>
+            <text>Generation : Fourth generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Units sold : 12000</text>
+            <text>CPU : Zilog Z80B @ 6 MHz</text>
             <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>CPU : Zilog Z80B @ 6 MHz</text>
-            <pos>0.38 0.82</pos>
+            <text>Memory : 256 KB/512 KB (4.5 MB max.)</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Memory : 256 KB/512 KB (4.5 MB max.)</text>
-            <pos>0.38 0.84</pos>
+            <text>Storage : Cassette recorder, 3.5 inch floppy disk</text>
+            <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Storage : Cassette recorder, 3.5 inch floppy disk</text>
-            <pos>0.38 0.86</pos>
+            <text>Graphics : 4 Modes </text>
+            <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Graphics : 4 Modes (256×192 / 512×192) and 128 colour palette</text>
+            <text>Sound Chip :  Philips SAA1099</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : (256×192 / 512×192) 128 colour palette</text>
             <pos>0.38 0.88</pos>
         </text>
     </view>

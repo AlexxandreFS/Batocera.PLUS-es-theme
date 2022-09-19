@@ -41,48 +41,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Developer : Sinclair Research</text>
-            <pos>0.38 0.72</pos>
+            <text>Developer/ Manufacturer : Sinclair Research/ Timex Corporation</text>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
-            <text>Manufacturer : Timex Corporation</text>
-            <pos>0.38 0.74</pos>
+            <text>Year of Release : 1981</text>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>Year of Release : 1981</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : 1.5 million</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Units sold : 1.5 million</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Second generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
             <text>CPU : Z80 at 3.25 MHz</text>
-            <pos>0.38 0.82</pos>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Memory : 1 KB (64 KB max. 56 KB usable)</text>
-            <pos>0.38 0.84</pos>
+            <text>RAM : 1 KB (64 KB max. 56 KB usable)</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
             <text>Storage : External cassette tape recorder at 250 baud</text>
-            <pos>0.38 0.86</pos>
+            <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Display : Monochrome display on UHF television</text>
-            <pos>0.38 0.88</pos>
+            <text>Graphics Display : Monochrome display on UHF television</text>
+            <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Graphics : 24 lines x 32 characters or 64 x 48 pixels graphics mode</text>
-            <pos>0.38 0.90</pos>
+            <text>Sound : Beeper</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 24 lines x 32 characters or 64 x 48 pixels graphics mode</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>
