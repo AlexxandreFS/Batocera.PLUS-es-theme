@@ -62,38 +62,38 @@
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : Sewer Shark</text>
+            <text>Generation : Fifth generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
             <text>CPU : 16-bit Motorola 68000 @ 12.5 MHz + Megadrive CPUs</text>
-            <pos>0.38 0.80</pos>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
             <text>RAM : 512kB / VRAM : 256kB / sound RAM : 16kB</text>
-            <pos>0.38 0.82</pos>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Media : 500MB CD-ROM discs</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
             <text>Video : Custom ASIC</text>
             <pos>0.38 0.84</pos>
         </text>
 
-        <text name="info8" extra="true">
-            <text>Resolution : 320×224 pixels, 64 colors (512 colors palette)</text>
+        <text name="info9" extra="true">
+            <text>Sound : Ricoh RF5C164 + Megadrive Sound chips </text>
             <pos>0.38 0.86</pos>
         </text>
 
-        <text name="info9" extra="true">
-            <text>Sound : Ricoh RF5C164 + Megadrive Sound chips </text>
-            <pos>0.38 0.88</pos>
-        </text>
-
         <text name="info10" extra="true">
-            <text>Media : 500MB CD-ROM discs</text>
-            <pos>0.38 0.90</pos>
+            <text>Resolution : 320×224 pixels, 64 colors (512 colors palette)</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

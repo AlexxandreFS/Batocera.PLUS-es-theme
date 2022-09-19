@@ -62,38 +62,38 @@
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : Donkey Kong</text>
+            <text>Generation : 	Second generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
             <text>CPU : Zilog Z80 @ 3.58 MHz</text>
-            <pos>0.38 0.80</pos>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
             <text>RAM : 1kB / VRAM : 16kB</text>
-            <pos>0.38 0.82</pos>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Cart Size : 8kB - 32kB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
             <text>Video : Texas Instruments TMS9928A</text>
             <pos>0.38 0.84</pos>
         </text>
 
-        <text name="info8" extra="true">
-            <text>Resolution : 256x192, 16 colors</text>
+        <text name="info9" extra="true">
+            <text>Sound : Texas Instruments SN76489A</text>
             <pos>0.38 0.86</pos>
         </text>
 
-        <text name="info9" extra="true">
-            <text>Sound : Texas Instruments SN76489A</text>
-            <pos>0.38 0.88</pos>
-        </text>
-
         <text name="info10" extra="true">
-            <text>Cart Size : 8kB - 32kB</text>
-            <pos>0.38 0.90</pos>
+            <text>Resolution : 256x192, 16 colors</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

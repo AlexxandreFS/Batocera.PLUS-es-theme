@@ -47,20 +47,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Manufacturer: IBM</text>
-            <pos>0.38 0.72</pos>
+            <text>Manufacturer: IBM, Microsoft</text>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1981</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>The IBM Personal Computer, commonly known as the IBM PC, is the original version and progenitor of the IBM PC compatible hardware platform. It is IBM model number 5150, and was introduced on August 12, 1981. It was created by a team of engineers and designers under the direction of Don Estridge of the IBM Entry Systems Division in Boca Raton, Florida.</text>
+            <text>Units sold : uncountable</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Second generation</text>
             <pos>0.38 0.76</pos>
-            <size>0.40 0.20</size>
-            <lineSpacing>1.1</lineSpacing>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : 386 or greater processor</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 16 MB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 700 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : Variable</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound chip : Any sound card</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : EGA 640x480 or better</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

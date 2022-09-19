@@ -25,7 +25,7 @@
         </image>
 
         <image name="band1" extra="true">
-            <color>74282b</color>
+            <color>000000</color>
         </image>
 
         <image name="band2" extra="true">
@@ -41,10 +41,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
+            <text>Developer : Libretro</text>
+            <pos>0.38 0.70</pos>
+        </text>
+
+        <text name="info2" extra="true">
+            <text>Year of Release : 2016</text>
             <pos>0.38 0.72</pos>
-            <size>0.40 0.20</size>
-            <lineSpacing>1.1</lineSpacing>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : Freware</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Fifth generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : X86 X64</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 512 MB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 2 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : DirectDraw7 support</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound chip : DirectSound3 should work</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 640x480 pixels</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

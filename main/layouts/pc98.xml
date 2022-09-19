@@ -48,32 +48,52 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : NEC Corporation</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1982</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>OS : CP/M-86, MS-DOS, OS/2, Windows </text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : 170 Thousand</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
+            <text>Generation : 	Second generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
             <text>CPU : 8086 @ 5 MHz and higher</text>
             <pos>0.38 0.78</pos>
         </text>
 
-        <text name="info5" extra="true">
+        <text name="info6" extra="true">
             <text>RAM : 128 KB and higher</text>
             <pos>0.38 0.80</pos>
         </text>
 
-        <text name="info6" extra="true">
-            <text>Sound Chip : Internal beeper, FM Sound, PCM</text>
+        <text name="info7" extra="true">
+            <text>ROM : 700 MB CD</text>
             <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : 2D GUI acceleration</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound Chip : Internal beeper, FM Sound, PCM</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 640×480 DOS screen</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

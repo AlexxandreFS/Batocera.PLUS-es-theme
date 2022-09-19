@@ -61,7 +61,7 @@
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : Star Raiders</text>
+            <text>Generation : 	Second generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
@@ -72,27 +72,27 @@
 
         <text name="info6" extra="true">
             <text>RAM : 128 Kbytes</text>
-            <pos>0.38 0.82</pos>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Cart Size : 2kB - 32kB </text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
             <text>Audio/Video Processor : TIA</text>
             <pos>0.38 0.84</pos>
         </text>
 
-        <text name="info8" extra="true">
-            <text>Resolution : 320x192x2 (256 colors palette)</text>
+        <text name="info9" extra="true">
+            <text>Sound : 4× oscillators with noise mixing, or 2× AM digital</text>
             <pos>0.38 0.86</pos>
         </text>
 
-        <text name="info9" extra="true">
-            <text>Sound : 4× oscillators with noise mixing, or 2× AM digital</text>
-            <pos>0.38 0.88</pos>
-        </text>
-
         <text name="info10" extra="true">
-            <text>Cart Size : 2kB - 32kB </text>
-            <pos>0.38 0.90</pos>
+            <text>Resolution : 320x192x2 (256 colors palette)</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

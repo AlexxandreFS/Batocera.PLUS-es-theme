@@ -61,6 +61,11 @@
             <pos>0.38 0.74</pos>
         </text>
 
+        <text name="info4" extra="true">
+            <text>Generation : 	Second generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
         <text name="info5" extra="true">
             <text>CPU : Intel 8048</text>
             <pos>0.38 0.78</pos>
@@ -72,28 +77,23 @@
         </text>
 
         <text name="info7" extra="true">
-            <text>Audio/Video RAM : 128 bytes</text>
+            <text>ROM : 1024 bytes</text>
             <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>ROM : 1024 bytes</text>
+            <text>Audio/Video RAM : 128 bytes</text>
             <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Resolution : 160×200 resolution (NTSC)</text>
+            <text>Sound : mono 24-bit shift register, clockable at 2 frequencies</text>
             <pos>0.38 0.86</pos>
         </text>
 
         <text name="info10" extra="true">
-            <text>Display : 16-color fixed palette; sprites may only use 8 of these colors</text>
+            <text>Resolution : 160×200 NTSC (16-color fixed palette)</text>
             <pos>0.38 0.88</pos>
-        </text>
-
-        <text name="info11" extra="true">
-            <text>Sound : mono 24-bit shift register, clockable at 2 frequencies</text>
-            <pos>0.38 0.9</pos>
         </text>
     </view>
 </theme>

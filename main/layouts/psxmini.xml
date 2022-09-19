@@ -42,47 +42,52 @@
         
         <text name="info1" extra="true">
             <text>Manufacturer : Sony Interactive Entertainment</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 2018</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
             <text>Units sold : 220,000 units</text>
-            <pos>0.38 0.76</pos>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : N/A</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Fifth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
             <text>CPU: MediaTek MT8167a, Quad-Core ARM Cortex-A35 </text>
-            <pos>0.38 0.82</pos>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
             <text>Memory: 1 GB of DDR3 RAM</text>
-            <pos>0.38 0.84</pos>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Graphics : Power VR GE8300</text>
-            <pos>0.38 0.86</pos>
+            <text>Storage: 16 GB eMMC Flash</text>
+            <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Storage: 16 GB eMMC Flash</text>
-            <pos>0.38 0.88</pos>
+            <text>Graphics : Power VR GE8300</text>
+            <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Media: Internal flash memory</text>
-            <pos>0.38 0.90</pos>
+            <text>Sound : HDMI</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : HDMI</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

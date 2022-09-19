@@ -62,37 +62,38 @@
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : Mario Kart 8 Deluxe</text>
+            <text>Generation : Eighth generation</text>
             <pos>0.30 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
             <text>CPU : ARM 4 Cortex-A57 + ARM 4 Cortex-A53 cores @ 1.02 GHz</text>
-            <pos>0.30 0.80</pos>
+            <pos>0.30 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
             <text>RAM : 4 GB LPDDR4 @ 1331/1600 MHz</text>
-            <pos>0.30 0.82</pos>
+            <pos>0.30 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Storage : 32 GB eMMC</text>
+            <pos>0.30 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
             <text>Graphics : 256 Maxwell-based CUDA cores @ 307.2–768 MHz</text>
             <pos>0.30 0.84</pos>
         </text>
 
-        <text name="info8" extra="true">
-            <text>Storage : 32 GB eMMC</text>
-            <pos>0.30 0.86</pos>
-        </text>
         <text name="info9" extra="true">
-            <text>Display : 6.2-inch, 1280 × 720 LCD (237 ppi)Docked: 480p/720p/1080p via HDM</text>
-            <pos>0.30 0.88</pos>
+            <text>Sound	Undocked/ Docked : Linear PCM 2.0 ch stereo speakers/ Linear PCM 5.1 ch</text>
+            <pos>0.30 0.86</pos>
         </text>
 
         <text name="info10" extra="true">
-            <text>Media : Game card, and Digital distribution</text>
-            <pos>0.30 0.90</pos>
+            <text>Resolution : 1280 × 720 LCD (237 ppi) Docked: 480p/720p/1080p via HDM</text>
+            <pos>0.30 0.88</pos>
         </text>
     </view>
 </theme>

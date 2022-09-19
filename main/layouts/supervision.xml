@@ -45,27 +45,42 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>CPU : 8-bit 65C02, 4 MHz</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : Unavailable</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Sound : 2 Tonal and 1 Noise Channel + audio DMA stereo</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Fourth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Resolution : 160×160px 61×61mm , 4 greys LCD</text>
-            <pos>0.38 0.80</pos>
+            <text>CPU : 8-bit 65C02, 4 MHz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Colors : 2</text>
-            <pos>0.38 0.82</pos>
+            <text>RAM : 8kB</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Power : 4 × AA batteries or 6V AC/DC adapter</text>
+            <text>Media	: ROM cartridge</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Graphics : No hardware video acceleration</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound : 2 Tonal and 1 Noise Channel + audio DMA stereo</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 160×160 pixel, 4 shades of grey</text>
             <pos>0.38 0.88</pos>
         </text>
     </view>

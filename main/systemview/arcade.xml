@@ -7,47 +7,53 @@
     </subset>
 
     <view name="system">
-        <image name="console" extra="true">
-            <path>./main/plus/console/${system.theme}.svg</path>
-            <path>./main/plus/console/${system.theme}.png</path>
-            <visible>false</visible>
-        </image>
 
-        <image name="image" extra="true">
+        <image name="image" extra="static">
             <path>./main/consoles/${system.theme}.svg</path>
             <path>./main/consoles/${system.theme}.png</path>
             <pos>0.18 0.60</pos>
             <maxSize>0.35 0.35</maxSize>
+            <zIndex>999</zIndex>
             <origin>0 1</origin>
         </image>
 
-        <image name="crt" extra="true">
+        <image name="crt" extra="static">
             <pos>0.74 0.60</pos>
             <origin>0.5 0.5</origin>
             <size>0.24 0.24</size>
             <path>./main/midia/scanlines.png</path>
             <color>FFFFFF60</color>
             <tile>true</tile>
-            <zIndex>15</zIndex>
+            <zIndex>999</zIndex>
         </image>
 
         <!-- When random box -->
-        <image name="box" extra="true">
+        <image name="box" extra="static">
             <default>./main/midia/novideo.png</default>
             <pos>0.74 0.60</pos>
             <maxSize>0.30 0.30</maxSize>
         </image>
 
-        <video name="videobox" extra="true">
+        <video name="video" extra="true">
             <default>./main/midia/novideo.png</default>
+            <path>{random}</path>
             <pos>0.74 0.60</pos>
             <origin>0.5 0.5</origin>
             <size>0.24 0.24</size>
-            <zIndex>12</zIndex>
+            <zIndex>99</zIndex>
         </video>
 
-        <image name="background" extra="true">
-            <path>./main/midia/fundo.png</path>
+        <video name="videobox" extra="static">
+            <default>./main/midia/novideo.png</default>
+            <path>{random:image}</path>
+            <pos>0.74 0.60</pos>
+            <origin>0.5 0.5</origin>
+            <size>0.24 0.24</size>
+            <zIndex>99</zIndex>
+        </video>
+
+        <image name="staticBackground" extra="static">
+            <path>./main/midia/fundos.png</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
@@ -60,14 +66,14 @@
             <path>./../../${system.theme}/art/system2.svg</path>
         </image>
 
-        <carousel name="systemcarousel">
+        <carousel name="systemcarousel" extra="static">
             <type>vertical</type> <!-- vertical_wheel -->
             <pos>0.24 -0.27</pos> <!-- direito up- ou down+ !!!! esquerdo left- ou right+ -->
             <size>1 1</size>
             <origin>0 0</origin>
             <color>FFFFFF00</color>
             <colorEnd>FFFFFF00</colorEnd>
-            <logoScale>1.5</logoScale>
+            <logoScale>1.1</logoScale>
             <logoSize>0.18 0.19</logoSize><!-- 0.2 0.2 só aumentar o tamanho que as logos no carrossel aparecem -->
             <logoRotation>-7.6</logoRotation>
             <logoRotationOrigin>3.5 0.3</logoRotationOrigin>
@@ -81,7 +87,7 @@
             <pos>0.020 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
-            <zIndex>10</zIndex>
+            <zIndex>50</zIndex>
         </image>
 
         <image name="band2" extra="true">
@@ -89,7 +95,7 @@
             <pos>0.050 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
-            <zIndex>10</zIndex>
+            <zIndex>50</zIndex>
         </image>
 
         <image name="band3" extra="true">
@@ -97,7 +103,7 @@
             <pos>0.08 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
-            <zIndex>10</zIndex>
+            <zIndex>50</zIndex>
         </image>
 
         <image name="band4" extra="true">
@@ -105,16 +111,12 @@
             <pos>0.109 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
-            <zIndex>10</zIndex>
+            <zIndex>50</zIndex>
         </image>
 
-        <image name="console" extra="true">
-            <path>./main/plus/console/${system.theme}.svg</path>
-            <path>./main/plus/console/${system.theme}.png</path>
-        </image>
 
-        <image name="ControllerOverlay" extra="true">
-            <visible>false</visible>
+        <image name="ControllerOverlay" extra="static">
+            <visible>true</visible>
         </image>
 
         <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
@@ -139,7 +141,7 @@
         </text>
 
         <!--
-        <image name="CenterFade" extra="true"  tinyScreen="false">
+        <image name="CenterFade" extra="static"  tinyScreen="false">
             <tile>false</tile>
             <size>0.40 1</size>
             <pos>0.2 1</pos>
@@ -150,7 +152,7 @@
         </image>
         -->
 
-        <image name="ControllerOverlay" extra="true">
+        <image name="ControllerOverlay" extra="static">
             <tile>false</tile>
             <pos>0.675 0.40</pos>
             <size>0.4 0</size>

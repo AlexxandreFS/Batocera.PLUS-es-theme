@@ -41,13 +41,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>FB Alpha or FBA as it is commonly known is an emulator of arcade games, that is, it takes the program code, graphic data, ... from an orginal arcade game and emulate the hardware to make the game run in it's original form. As far as the game is concerned it is running in it's original cabinet.
+            <text>Developers : Barry Harris, dinkc64, iq_132 & FBA community</text>
+            <pos>0.38 0.70</pos>
+        </text>
 
-FBA is an open-source project and it is programmed by a group of people known as the FBA team. Over the years this has comprised Jan_Klaassen, KEV, LoopMaster, Mike Haggar, Hyper Yagami, Ayeye. FBA is based on the original FinalBurn by Dave.
-            </text>
+        <text name="info2" extra="true">
+            <text>Year of Release : 2015</text>
             <pos>0.38 0.72</pos>
-            <size>0.40 0.20</size>
-            <lineSpacing>1.1</lineSpacing>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : Freeware</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Third to Sixth generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : 233MHz</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 192 MB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 4 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : DirectDraw7 support</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound card : DirectSound3 should work</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 800 x 600 or higher</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

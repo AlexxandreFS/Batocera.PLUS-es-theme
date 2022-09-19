@@ -48,22 +48,22 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Nintendo</text>
-            <pos>0.43 0.68</pos>
+            <pos>0.43 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 2017</text>
-            <pos>0.43 0.70</pos>
+            <pos>0.43 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
             <text>Units sold : 5.28 million</text>
-            <pos>0.43 0.72</pos>
+            <pos>0.43 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>OS; Linux</text>
-            <pos>0.43 0.74</pos>
+            <text>Generation : Fourth generation</text>
+            <pos>0.43 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
@@ -77,7 +77,7 @@
         </text>
 
         <text name="info7" extra="true">
-            <text>System on a chip:    Allwinner R16</text>
+            <text>Storage: 512 MB NAND flash memory</text>
             <pos>0.43 0.82</pos>
         </text>
 
@@ -87,12 +87,12 @@
         </text>
 
         <text name="info9" extra="true">
-            <text>Storage: 512 MB NAND flash memory</text>
+            <text>System on a chip : Allwinner R16</text>
             <pos>0.43 0.86</pos>
         </text>
 
         <text name="info10" extra="true">
-            <text>Media    Internal: flash memory</text>
+            <text>Resolution : 720p/60 Hz HDMI</text>
             <pos>0.43 0.88</pos>
         </text>
     </view>

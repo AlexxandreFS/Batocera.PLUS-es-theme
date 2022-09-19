@@ -28,7 +28,7 @@
             <color>00000000</color>
             <colorEnd>00000000</colorEnd>
             <gradientType>horizontal</gradientType>
-            <logoScale>1.7</logoScale>
+            <logoScale>1.4</logoScale>
             <logoSize>0.1 0.1</logoSize>
             <maxLogoCount>5</maxLogoCount>
             <systemInfoDelay>0</systemInfoDelay>
@@ -65,8 +65,8 @@
         <image name="darkwheel" extra="static" tinyScreen="false">
             <tile>false</tile>
             <origin>0 0</origin>
-            <pos>0 0.4369</pos>
-            <maxSize>0.24 0.15</maxSize>
+            <pos>0 0.43</pos>
+            <maxSize>0.24 0.20</maxSize>
             <path>./main/midia/backgroundlogo.svg</path>
             <zIndex>12</zIndex>
         </image>

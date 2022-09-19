@@ -54,28 +54,43 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>OS : Palm OS version 4.1</text>
+            <text>Units sold : uninformed</text>
             <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
+            <text>Generation : Fourth generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
             <text>CPU : Motorola DragonBall VZ MC68VZ328 @ 33 MHz</text>
             <pos>0.38 0.78</pos>
         </text>
 
-        <text name="info5" extra="true">
+        <text name="info6" extra="true">
             <text>RAM : 16 MB RAM</text>
             <pos>0.38 0.80</pos>
         </text>
 
-        <text name="info6" extra="true">
+        <text name="info7" extra="true">
             <text>ROM : 4 MB Flash</text>
             <pos>0.38 0.82</pos>
         </text>
 
-        <text name="info7" extra="true">
-            <text>Display : 160×160 pixel (65,000+ colors)</text>
+        <text name="info8" extra="true">
+            <text>Graphics : LCD</text>
             <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound hardware : Internal (uninformed)</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Display : 160×160 pixel (65,000+ colors)</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

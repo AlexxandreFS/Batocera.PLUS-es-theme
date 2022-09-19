@@ -42,46 +42,51 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Thomson</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1986</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>CPU : Motorola 6809E @ 1 MHz</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : 60 Thousand</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>RAM : 256kB, ROM : 80kB</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Fourth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>8 Display modes, palette of 4096 colors </text>
-            <pos>0.38 0.80</pos>
+            <text>CPU : Motorola 6809E @ 1 MHz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Low resolutions: 160 × 200 (16, 5 or 2 colors)</text>
-            <pos>0.38 0.82</pos>
+            <text>RAM : 256kB</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Medium resolutions: 320 × 200 (16, 4, 3 or 2 colors)</text>
-            <pos>0.38 0.84</pos>
+            <text>ROM : 80kB</text>
+            <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>High resolution: 640 × 200 (2 colors)</text>
-            <pos>0.38 0.86</pos>
+            <text>Graphics : Thomson EF9369</text>
+            <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Media : Cartridge, external 3½" floppy disk and tape drives</text>
+            <text>Sound : generator + 1 bit D/A converter 6 bits</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution :  160 × 200 to 640 × 200 (16, 4, 3 or 2 colors)</text>
             <pos>0.38 0.88</pos>
         </text>
     </view>

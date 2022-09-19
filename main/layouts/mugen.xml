@@ -47,8 +47,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Manufacturer :</text>
+            <text>Developer : Elecbyte</text>
+            <pos>0.38 0.70</pos>
+        </text>
+
+        <text name="info2" extra="true">
+            <text>Year of Release : 1999</text>
             <pos>0.38 0.72</pos>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : Frewere</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Fifth generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>2.13 GHz Intel Core2 Duo or equivalent</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 4 GB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 4 GB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Video Card : DirectX 9.0c compatible graphics card</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound card : DirectSound3 should work</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 480i, 480p</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

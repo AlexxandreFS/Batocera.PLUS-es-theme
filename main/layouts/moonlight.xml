@@ -40,37 +40,48 @@
         </text>
 
         <text name="info2" extra="true">
-            <text>Ported on Linux by : irtimmer</text>
+            <text>Year Release : 2013</text>
             <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>Type : Open Source implementation</text>
+            <text>Units sold : Freeware</text>
             <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Year of first release : 2013</text>
+            <text>Generation : 	Eighth generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>PC compatibility : GFA PC with GTX 600/700/900/ ... GPU</text>
+            <text>CPU: Intel Pentium 4 1.70GHz.</text>
             <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Necessary soft : Nvidia GeForce Experience</text>
+            <text>RAM : 2 GB</text>
             <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Moonlight allows you to stream your collection of Steam games from your NVIDIA GFE PC to your rpi. 
-Moonlight is perfect for gameplay on the go without sacrificing the graphics quality of your gaming computer.
-            </text>
-            <pos>0.38 0.78</pos>
-            <size>0.40 0.20</size>
-            <lineSpacing>1.1</lineSpacing>
+            <text>ROM : 28 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Graphics Card: NVIDIA GeForce 7200 GS</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound chip : DirectSound3 should work</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 720p, 1080p</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

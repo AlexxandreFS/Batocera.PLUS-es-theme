@@ -51,43 +51,43 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>Units sold : 11 million</text>
+            <text>Units sold : 10.62 million</text>
             <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
+            <text>Generation : 	Fourth generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
             <text>CPU : 8-Bit Zilog Z80 @ 3.58 MHz</text>
             <pos>0.38 0.78</pos>
         </text>
 
-        <text name="info5" extra="true">
+        <text name="info6" extra="true">
             <text>RAM : 8kB / VRAM : 16kB</text>
             <pos>0.38 0.80</pos>
         </text>
 
-        <text name="info6" extra="true">
-            <text>Video : Sega VDP (custom Texas Instruments TMS9918)</text>
+        <text name="info7" extra="true">
+            <text>Cart Size : 32kB - 1MB</text>
             <pos>0.38 0.82</pos>
         </text>
 
-        <text name="info7" extra="true">
-            <text>Resolution : 160 x 146 pixels, 32 colors (4096 colors palette)</text>
+        <text name="info8" extra="true">
+            <text>Video : Sega VDP (custom Texas Instruments TMS9918)</text>
             <pos>0.38 0.84</pos>
         </text>
 
-        <text name="info8" extra="true">
+        <text name="info9" extra="true">
             <text>Sound : TI SN76489 PSG</text>
             <pos>0.38 0.86</pos>
         </text>
 
-        <text name="info9" extra="true">
-            <text>Cart Size : 32kB - 1MB</text>
-            <pos>0.38 0.88</pos>
-        </text>
-
         <text name="info10" extra="true">
-            <text>Screen : 8.128cm (3.2 inches), backlit LCD</text>
-            <pos>0.38 0.90</pos>
+            <text>Resolution : 160 x 146 pixels, 32 colors (4096 colors palette)</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>
