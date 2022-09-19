@@ -1,23 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-    <formatVersion>7</formatVersion>
-
-    <view name="system">
-        <!-- When random box -->
-        <image name="box" extra="true">
-            <pos>0.587 0.30</pos>
-            <maxSize>0.40 0.50</maxSize>
-        </image>
-
-        <video name="videobox" extra="true">
-            <pos>0.587 0.30</pos>
-            <maxSize>0.40 0.50</maxSize>
-        </video>
-
-        <image name="logo">
-            <!-- if system2 exists, take this version -->
-            <path>./../../${system.theme}/art/system2.svg</path>
-        </image>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <!-- When random box -->
+    <image name="box" extra="true">
+      <pos>0.675 0.40</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>
+    <video name="videobox" extra="true">
+      <pos>0.675 0.40</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </video>
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../${system.theme}/art/system2.svg</path>
+    </image>
 
         <carousel name="systemcarousel">
             <type>vertical_wheel</type>
@@ -30,12 +27,45 @@
             <colorEnd>0000000</colorEnd>
             <logoScale>1.3</logoScale>
             <logoSize>0.15 0.15</logoSize>
-            <logoRotation>16</logoRotation>
+            <logoRotation>-16</logoRotation>
             <logoRotationOrigin>-2.0 0.20</logoRotationOrigin>
             <logoAlignment>center</logoAlignment>
             <maxLogoCount>3</maxLogoCount>
             <systemInfoDelay>0.1</systemInfoDelay>
         </carousel>
+
+        <image name="band1" extra="true">
+            <size>0.03 1</size>
+            <pos>0.80 0</pos>
+            <origin>0 0</origin>
+            <path>./main/midia/band.png</path>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="band2" extra="true">
+            <size>0.03 1</size>
+            <pos>0.829 0</pos>
+            <origin>0 0</origin>
+            <path>./main/midia/band.png</path>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="band3" extra="true">
+            <size>0.03 1</size>
+            <pos>0.858 0</pos>
+            <origin>0 0</origin>
+            <path>./main/midia/band.png</path>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="band4" extra="true">
+            <size>0.03 1</size>
+            <pos>0.887 0</pos>
+            <origin>0 0</origin>
+            <path>./main/midia/band.png</path>
+            <zIndex>50</zIndex>
+        </image>
+
 
         <image name="darkwheel" extra="static" tinyScreen="false">
             <tile>false</tile>
@@ -47,13 +77,15 @@
             <zIndex>12</zIndex>
         </image>
 
-        <image name="background" extra="true">
+        <image name="staticBackground" extra= "true">
+            <tile>false</tile>
             <path>./main/midia/backgroundwhell.png</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
+            <effect>none</effect>
             <color>ffffffff</color>
-            <zIndex>0</zIndex>
+            <zIndex>10</zIndex>
         </image>
 
         <text name="systemInfo">
@@ -65,18 +97,6 @@
             <glowSize>2</glowSize>
             <reflexion>0.0 0.0</reflexion>
         </text>
-
-        <!--
-        <image name="CenterFade" extra="true"  tinyScreen="false">
-            <tile>false</tile>
-            <size>0.40 1</size>
-            <pos>0.2 1</pos>
-            <origin>1 1</origin>
-            <path>./main/midia/centerfade_v.png</path>
-            <color></color>
-            <zIndex>11</zIndex>
-        </image>
-        -->
 
         <image name="ControllerOverlay" extra="true">
             <tile>false</tile>

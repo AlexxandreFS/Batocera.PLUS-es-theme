@@ -7,6 +7,7 @@
             <tile>false</tile>
             <pos>0.587 0.30</pos>
             <size>0.3 0</size>
+            <zIndex>999</zIndex>
         </image>
     </view>
 </theme>

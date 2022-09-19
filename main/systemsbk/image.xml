@@ -3,12 +3,56 @@
     <formatVersion>4</formatVersion>
 
     <view name="system">
+        <image name="band1" extra="static">
+            <size>0.03 1</size>
+            <pos>0.80 0</pos>
+            <origin>0 0</origin>
+            <zIndex>35</zIndex>
+            <path>./main/midia/band.png</path>
+        </image>
+
+        <image name="band2" extra="static">
+            <size>0.03 1</size>
+            <pos>0.829 0</pos>
+            <origin>0 0</origin>
+            <zIndex>35</zIndex>
+            <path>./main/midia/band.png</path>
+        </image>
+
+        <image name="band3" extra="static">
+            <size>0.03 1</size>
+            <pos>0.858 0</pos>
+            <origin>0 0</origin>
+            <zIndex>35</zIndex>
+            <path>./main/midia/band.png</path>
+        </image>
+
+        <image name="band4" extra="static">
+            <size>0.03 1</size>
+            <pos>0.887 0</pos>
+            <origin>0 0</origin>
+            <zIndex>35</zIndex>
+            <path>./main/midia/band.png</path>
+        </image>
+
+        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="static">
+            <pos>0.38 0.70</pos>
+            <color>ff9900</color>
+            <alignment>left</alignment>
+            <fontPath>./main/fonts/ubuntu_bold.ttf</fontPath>
+            <fontSize>0.017</fontSize>
+            <zIndex>50</zIndex>
+            <forceUppercase>1</forceUppercase>
+            <size>0.5 0.04</size>
+        </text>
+
         <image name="randomImage" extra="true">
             <path>{random:image}</path>
-            <color>FFFFFF90</color>
+            <color>FFFFFF</color>
             <pos>0.5 0.475</pos>
             <origin>0.5 0.5</origin>
-            <minSize>1 0.95</minSize>
+            <minSize>1 1</minSize>
+            <linearSmooth>true</linearSmooth>
             <zIndex>11</zIndex>
         </image>
 
