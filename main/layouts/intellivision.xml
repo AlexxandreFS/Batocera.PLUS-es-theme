@@ -48,37 +48,52 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Mattel</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1980</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
             <text>Units sold : 3 million</text>
-            <pos>0.38 0.76</pos>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>CPU : General Instrument CP1610 16-bit</text>
-            <pos>0.38 0.80</pos>
+            <text>Generation : Second generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>RAM : 1456 bytes</text>
-            <pos>0.38 0.82</pos>
+            <text>CPU : General Instrument CP1610 16-bit</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Cartridge ROM</text>
-            <pos>0.38 0.84</pos>
+            <text>RAM : 1456 bytes</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Cartridge ROM : 64 KB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : 512 × 8-bit graphics RAM</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
             <text>Audio Processor : GI AY-3-8914</text>
             <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 40 X 24 monochrome</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

@@ -42,32 +42,52 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Nintendo</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 2001</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>CPU: S1C88 @ 4 MHz</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : uninformed</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Memory: 4 KB RAM</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : Fourth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Graphics: Monochrome LCD, 96×64</text>
-            <pos>0.38 0.80</pos>
+            <text>CPU : S1C88 @ 4 MHz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Media: ROM cartridge</text>
+            <text>RAM : 4 KB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>Media : ROM cartridge</text>
             <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Graphics : LCD</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound hardware : Internal (uninformed)</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 96 × 64 Monochrome</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

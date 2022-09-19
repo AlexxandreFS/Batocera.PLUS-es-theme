@@ -62,8 +62,43 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>Operating system: Microsoft Windows</text>
+            <text>Units sold : Freeware</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Sixth generation</text>
             <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : Dual Core CPU @ 1.6GHz</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 4 GB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 6 GB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : Nvida GTS 450 or AMD equivalen</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound chip : DirectX compatible sound card / integrated</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 3840 x 2160 Pixels</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

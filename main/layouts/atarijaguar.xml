@@ -48,37 +48,52 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Atari Corporation</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1993</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
             <text>Units sold : 250 thousand</text>
-            <pos>0.38 0.76</pos>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>CPU : "Tom" Chip, 26.59 MHz</text>
-            <pos>0.38 0.80</pos>
+            <text>Generation : 	Fifith generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>RAM : 2 MB on a 64-bit bus using 4 16-bit fast page mode DRAMs (80 ns)</text>
-            <pos>0.38 0.82</pos>
+            <text>CPU : "Tom" Chip, 26.59 MHz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Cartridge ROM</text>
-            <pos>0.38 0.84</pos>
+            <text>RAM : 2 MB on a 64-bit bus using 4 16-bit fast page mode DRAMs (80 ns)</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
+            <text>Cartridge ROM : 6MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : 32-bit RISC architecture, 4 KB internal RAM</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
             <text>Audio Processor : "Jerry" Chip, 26.59 MHz</text>
             <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 320 x 240 pixels, (weak colors palette)</text>
+            <pos>0.38 0.88</pos>
         </text>        
     </view>
 </theme>

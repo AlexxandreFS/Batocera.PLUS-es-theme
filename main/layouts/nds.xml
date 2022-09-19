@@ -26,6 +26,12 @@
             <origin>0 1</origin>
         </image>
 
+        <image name="controller" extra="true">
+            <pos>0.78 0.30</pos>
+            <maxSize>0.15 0.25</maxSize>
+            <origin>1 1</origin>
+        </image>
+
         <image name="band1" extra="true">
             <color>38454F</color>
         </image>
@@ -44,22 +50,22 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Nintendo</text>
-            <pos>0.38 0.68</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 2004</text>
-            <pos>0.38 0.70</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
             <text>Units sold : 153.99 million</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : New Super Mario Bros.</text>
-            <pos>0.38 0.74</pos>
+            <text>Generation : 	Seventh generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
@@ -73,28 +79,23 @@
         </text>
 
         <text name="info7" extra="true">
-            <text>Screen : Reflective TFT Colour LCD</text>
+            <text>ROM : 8 to 512 MB</text>
             <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Resolution : 256 x 192 pixels</text>
+            <text>Video RAM : 656KB</text>
             <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Video RAM : 656KB</text>
+            <text>Sound : Stereo speakers w/virtual surround, headphones</text>
             <pos>0.38 0.86</pos>
         </text>
 
         <text name="info10" extra="true">
-            <text>Display Ability : 260 000 colours</text>
+            <text>Resolution : 256 x 192 pixels (260 000 colours)</text>
             <pos>0.38 0.88</pos>
-        </text>
-
-        <text name="info11" extra="true">
-            <text>Sound : Stereo speakers w/virtual surround, headphones</text>
-            <pos>0.38 0.90</pos>
         </text>
     </view>
 </theme>

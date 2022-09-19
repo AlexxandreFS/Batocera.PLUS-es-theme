@@ -47,8 +47,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>This game is based on the movie of the same name from 1981</text>
+            <text>Base Manufacturer/ Composer : Sega/ Hiroshi Kawaguchi</text>
+            <pos>0.38 0.70</pos>
+        </text>
+
+        <text name="info2" extra="true">
+            <text>Year of Release : 1986</text>
             <pos>0.38 0.72</pos>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : 20 Thousand</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Second generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : Based on the System 16</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 64 KB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 856,45 KB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>VRAM : 64 KB</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Audio RAM : 8 KB</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 512×256 Pixels, double buffering, 16-bit color depth</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

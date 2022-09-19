@@ -47,8 +47,53 @@
         </image>
 
         <text name="info1" extra="true">
-            <text>Computer ported games</text>
-            <pos>0.50 0.72</pos>
+            <text>Developers : Computer ported games</text>
+            <pos>0.38 0.70</pos>
+        </text>
+
+        <text name="info2" extra="true">
+            <text>Year of Release : Uninformed</text>
+            <pos>0.38 0.72</pos>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : Freeware</text>
+            <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : Ninith generation</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : Hardware</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : Hardware</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>Media : HD, SSD, M.2</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Graphics : Hardware</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound hardware : Hardware</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : Hardware</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

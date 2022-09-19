@@ -42,39 +42,52 @@
 
         <text name="info1" extra="true">
             <text>Name: HBMAME (HomeBrew MAME)</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
-            <text>Features : Contains various hacks and homebrews</text>
-            <pos>0.38 0.74</pos>
+            <text>Year of Release : 1993</text>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>Homebrew games meant for arcade hardware
-or emulators of arcade hardware.
-            </text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : Free Distribution</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Hacks of arcade games</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : 	First to Sixth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Selected bootlegs that are not in MAME</text>
-            <pos>0.38 0.82</pos>
+            <text>CPU : Any MMX-capable AMD or Intel processor</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Games that are enhanced or improved but not suitable for MAME </text>
-            <pos>0.38 0.84</pos>
+            <text>RAM : 4GB</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Web Site : https://hbmame.1emulation.com/</text>
+            <text>Size : 84MB </text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : A DirectDraw or Direct3D capable graphics card</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound : Any DirectSound compatible sound card</text>
             <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : Variable</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

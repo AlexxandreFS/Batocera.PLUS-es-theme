@@ -56,7 +56,7 @@
         </text>
 
         <text name="info4" extra="true">
-            <text>Best-selling game : Pokemon Gold and Silver</text>
+            <text>Generation : 	Fifth generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
@@ -71,12 +71,12 @@
         </text>
 
         <text name="info7" extra="true">
-            <text>Video : PPU (embedded in CPU)</text>
+            <text>Cart Size : 256kB - 8MB</text>
             <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Resolution : 160 x 144 pixels, 56 colors (32768 colors palette)</text>
+            <text>Video : PPU (embedded in CPU)</text>
             <pos>0.38 0.84</pos>
         </text>
 
@@ -86,13 +86,8 @@
         </text>
 
         <text name="info10" extra="true">
-            <text>Cart Size : 256kB - 8MB</text>
+            <text>Resolution : 160 x 144 pixels, 56 colors (32768 colors palette)</text>
             <pos>0.38 0.88</pos>
-        </text>
-
-        <text name="info11" extra="true">
-            <text>Display : 66 mm (2.6 in) Reflective LCD</text>
-            <pos>0.38 0.90</pos>
         </text>
     </view>
 </theme>

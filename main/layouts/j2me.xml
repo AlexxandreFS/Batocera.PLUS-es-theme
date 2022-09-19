@@ -53,12 +53,52 @@
 
         <text name="info1" extra="true">
             <text>Manufacturer : Sun Microsystems</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1995</text>
+            <pos>0.38 0.72</pos>
+        </text>
+
+        <text name="info3" extra="true">
+            <text>Units sold : Freeware</text>
             <pos>0.38 0.74</pos>
+        </text>
+
+        <text name="info4" extra="true">
+            <text>Generation : 	Unavailable</text>
+            <pos>0.38 0.76</pos>
+        </text>
+
+        <text name="info5" extra="true">
+            <text>CPU : x86 x64</text>
+            <pos>0.38 0.78</pos>
+        </text>
+
+        <text name="info6" extra="true">
+            <text>RAM : 512 MB</text>
+            <pos>0.38 0.80</pos>
+        </text>
+
+        <text name="info7" extra="true">
+            <text>ROM : 140 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>GPU : Full PBP functionality requires an accelerated graphics card</text>
+            <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound chip : DirectSound3 should work</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 640x480 Pixels</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

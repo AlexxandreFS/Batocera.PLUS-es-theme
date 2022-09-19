@@ -48,37 +48,52 @@
 
         <text name="info1" extra="true">
             <text>Developer / Manufacturer : Sega</text>
-            <pos>0.38 0.72</pos>
+            <pos>0.38 0.70</pos>
         </text>
 
         <text name="info2" extra="true">
             <text>Year of Release : 1996</text>
-            <pos>0.38 0.74</pos>
+            <pos>0.38 0.72</pos>
         </text>
 
         <text name="info3" extra="true">
-            <text>CPU : IBM PowerPC 603 @ 66, 100, 166 MHz</text>
-            <pos>0.38 0.76</pos>
+            <text>Units sold : 200 Thousand</text>
+            <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>RAM : 8 MB</text>
-            <pos>0.38 0.78</pos>
+            <text>Generation : 	Fifth generation</text>
+            <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Video : 2x Lockheed Martin Real3D/Pro-1000 </text>
-            <pos>0.38 0.80</pos>
+            <text>CPU : IBM PowerPC 603 @ 66, 100, 166 MHz</text>
+            <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>Resolution : 480p, 480i or 576i</text>
-            <pos>0.38 0.82</pos>
+            <text>RAM : 8 MB</text>
+            <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Sound : 2× Yamaha SCSP/YM-292F</text>
+            <text>ROM : 100 MB</text>
+            <pos>0.38 0.82</pos>
+        </text>
+
+        <text name="info8" extra="true">
+            <text>Video : 2x Lockheed Martin Real3D/Pro-1000 </text>
             <pos>0.38 0.84</pos>
+        </text>
+
+        <text name="info9" extra="true">
+            <text>Sound : 2× Yamaha SCSP/YM-292F</text>
+            <pos>0.38 0.86</pos>
+        </text>
+
+        <text name="info10" extra="true">
+            <text>Resolution : 480p, 480i or 576i</text>
+            <pos>0.38 0.88</pos>
         </text>
     </view>
 </theme>

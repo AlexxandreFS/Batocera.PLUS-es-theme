@@ -53,42 +53,42 @@
         </text>
 
         <text name="info3" extra="true">
-            <text>Website : http://www.daphne-emu.com/</text>
+            <text>Units sold : Freeware</text>
             <pos>0.38 0.74</pos>
         </text>
 
         <text name="info4" extra="true">
-            <text>Written in : C++</text>
+            <text>Generation : 	Fifth generation</text>
             <pos>0.38 0.76</pos>
         </text>
 
         <text name="info5" extra="true">
-            <text>Daphne is a program that lets one play the original</text>
+            <text>CPU : 2 GHz Processor</text>
             <pos>0.38 0.78</pos>
         </text>
 
         <text name="info6" extra="true">
-            <text>versions of many LaserDisc arcade games</text>
+            <text>RAM : 128 MB</text>
             <pos>0.38 0.80</pos>
         </text>
 
         <text name="info7" extra="true">
-            <text>Hypseus is a fork of Daphne to improve</text>
+            <text>ROM : 100 MB</text>
             <pos>0.38 0.82</pos>
         </text>
 
         <text name="info8" extra="true">
-            <text>Resolution : 256x224, 256 colors (32768 colors palette)</text>
+            <text>Graphics: DirectX 9.0 Compatible</text>
             <pos>0.38 0.84</pos>
         </text>
 
         <text name="info9" extra="true">
-            <text>Performance (MPEG2 decoder, SDL2 support, ...)</text>
+            <text>Sound Card: DirectX 9.0 Compatible Sound</text>
             <pos>0.38 0.86</pos>
         </text>
 
         <text name="info10" extra="true">
-            <text>Best LaserDisc games are: Dragon's Lair, Space Ace...</text>
+            <text>Resolution : 256x224, 256 colors (32768 colors palette)</text>
             <pos>0.38 0.88</pos>
         </text>
     </view>
