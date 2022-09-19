@@ -145,7 +145,7 @@ We leave here our thanks! ...
             <reflexion>0.1 0.1</reflexion>
         </text>
 
-        <image name="carousel-shadow" extra="true">
+        <image name="carousel-shadow" extra="static">
             <path>./main/midia/shadow.png</path>
             <color>FFFFFF88</color>
             <pos>0 0.6162</pos>
@@ -164,7 +164,7 @@ We leave here our thanks! ...
 
         <!-- Used by random box need to be declared there -->
 
-        <image name="box" extra="true">
+        <image name="box" extra="static">
             <pos>0.18 0.81</pos>
             <origin>0.5 0.5</origin>
             <maxSize>0.24 0.24</maxSize>
@@ -172,7 +172,7 @@ We leave here our thanks! ...
             <visible>false</visible>
         </image>
 
-        <video name="videobox" extra="true">
+        <video name="videobox" extra="static">
             <pos>0.18 0.81</pos>
             <origin>0.5 0.5</origin>
             <size>0.24 0.24</size>
@@ -190,35 +190,39 @@ We leave here our thanks! ...
             <zIndex>10</zIndex>
         </image>
 
-        <image name="band1" extra="true">
+        <image name="band1" extra="static">
             <size>0.03 1</size>
             <pos>0.80 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
+            <zIndex>12</zIndex>
         </image>
 
-        <image name="band2" extra="true">
+        <image name="band2" extra="static">
             <size>0.03 1</size>
             <pos>0.829 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
+            <zIndex>12</zIndex>
         </image>
 
-        <image name="band3" extra="true">
+        <image name="band3" extra="static">
             <size>0.03 1</size>
             <pos>0.858 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
+            <zIndex>12</zIndex>
         </image>
 
-        <image name="band4" extra="true">
+        <image name="band4" extra="static">
             <size>0.03 1</size>
             <pos>0.887 0</pos>
             <origin>0 0</origin>
             <path>./main/midia/band.png</path>
+            <zIndex>12</zIndex>
         </image>
 
-        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="static">
             <pos>0.38 0.70</pos>
             <color>ff9900</color>
             <alignment>left</alignment>
@@ -277,7 +281,7 @@ We leave here our thanks! ...
             <zIndex>50</zIndex>
         </image>
 
-        <image name="ControllerOverlay" extra="true">
+        <image name="ControllerOverlay" extra="static">
             <tile>false</tile>
             <pos>0.5 0.19</pos>
             <origin>0.5 0.5</origin>
@@ -406,7 +410,7 @@ Année de sortie : ${system.releaseYear}</text>
 
         <menuText name="menutext">
             <fontPath>./main/fonts/Exo2-RegularCondensed.otf</fontPath>
-            <fontSize>0.036</fontSize>
+            <fontSize>0.031</fontSize>
             <color>EEEEEE</color>
             <separatorColor>FEFEFE</separatorColor>
             <selectorColor>ff9900</selectorColor>
@@ -469,7 +473,7 @@ Année de sortie : ${system.releaseYear}</text>
     </view>
 
     <view name="basic">
-        <image name="background" extra="true">
+        <image name="background" extra="static">
             <tile>true</tile>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -478,7 +482,7 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>0</zIndex>
         </image>
 
-        <image name="back-gamelist" extra="true">
+        <image name="back-gamelist" extra="static">
             <pos>0.01 0.19</pos>
             <size>0.35 0.735</size>
             <path>./main/midia//back.png</path>
@@ -491,7 +495,7 @@ Année de sortie : ${system.releaseYear}</text>
             <iconColor>ff9900</iconColor>
         </helpsystem>
     
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <size>1 0.065</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
@@ -537,7 +541,7 @@ Année de sortie : ${system.releaseYear}</text>
             <fontSize>0.02</fontSize>
         </video>
 
-        <image name="background">
+        <image name="background" extra="static">
             <tile>true</tile>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -546,7 +550,7 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>0</zIndex>
         </image>
 
-        <image name="back-gamelist" extra="true">
+        <image name="back-gamelist" extra="static">
             <pos>0.01 0.19</pos>
             <size>0.35 0.73</size>
             <path>./main/midia/back.png</path>
@@ -559,7 +563,7 @@ Année de sortie : ${system.releaseYear}</text>
             <iconColor>ff9900</iconColor>
         </helpsystem>
 
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <size>1 0.065</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
@@ -589,7 +593,7 @@ Année de sortie : ${system.releaseYear}</text>
             <color>ff9900</color>
         </text>
 
-        <image name="back-image" extra="true">
+        <image name="back-image" extra="static">
             <pos>0.37 0.05</pos>
             <size>0.36 0.55</size>
             <path>./main/midia/back.png</path>
@@ -610,7 +614,7 @@ Année de sortie : ${system.releaseYear}</text>
             <unfilledPath>./main/midia/rating_empty.svg</unfilledPath>
         </rating>
 
-        <image name="back-information" extra="true">
+        <image name="back-information" extra="static">
             <pos>0.74 0.05</pos>
             <size>0.25 0.55</size>
             <path>./main/midia/back.png</path>
@@ -682,7 +686,7 @@ Année de sortie : ${system.releaseYear}</text>
             <pos>0.865 0.425</pos>
         </text>
 
-        <image name="back-description" extra="true">
+        <image name="back-description" extra="static">
             <pos>0.37 0.62</pos>
             <size>0.62 0.280</size>
             <path>./main/midia/back.png</path>
@@ -765,7 +769,7 @@ Année de sortie : ${system.releaseYear}</text>
     </view>
 
     <view name="basic">
-        <image name="bottom" extra="true">
+        <image name="bottom" extra="static">
             <pos>0.01 0.02</pos>
             <size>0.98 0.15</size>
             <path>./main/midia/header.png</path>
@@ -797,7 +801,7 @@ Année de sortie : ${system.releaseYear}</text>
             <path>./main/logos/jp/${system.theme}.svg</path>
         </image>
 
-        <image name="back-gamelist" extra="true">
+        <image name="back-gamelist" extra="static">
             <pos>0.01 0.19</pos>
             <size>0.98 0.780</size>
             <path>./main/midia/back.png</path>
@@ -839,14 +843,14 @@ Année de sortie : ${system.releaseYear}</text>
             <horizontalMargin>0.005</horizontalMargin>
         </textlist>
 
-        <helpsystem name="help">
+        <helpsystem name="help" extra="static">
             <fontSize>0.03</fontSize>
             <pos>0.01 0.965</pos>
             <textColor>ececec</textColor>
             <iconColor>ff9900</iconColor>
         </helpsystem>
 
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <pos>0 1</pos>
             <origin>0 1</origin>
             <size>1 0.05</size>
@@ -856,7 +860,7 @@ Année de sortie : ${system.releaseYear}</text>
     </view>
 
     <view name="detailed">
-        <image name="bottom" extra="true">
+        <image name="bottom" extra="static">
             <pos>0.01 0.02</pos>
             <size>0.35 0.15</size>
             <path>./main/midia/header.png</path>
@@ -895,7 +899,7 @@ Année de sortie : ${system.releaseYear}</text>
             <iconColor>ff9900</iconColor>
         </helpsystem>
 
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <pos>0 1</pos>
             <origin>0 1</origin>
             <size>1 0.05</size>
@@ -912,7 +916,7 @@ Année de sortie : ${system.releaseYear}</text>
             <iconColor>ff9900</iconColor>
         </helpsystem>
 
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <pos>0 1</pos>
             <origin>0 1</origin>
             <size>1 0.05</size>
@@ -920,7 +924,7 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>1</zIndex>
         </image>
 
-        <image name="bottom" extra="true">
+        <image name="bottom" extra="static">
             <pos>0 1</pos>
             <origin>0 1</origin>
             <size>1 0.065</size>
@@ -929,14 +933,14 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>13</zIndex>
         </image>
 
-        <image name="back-logo" extra="true">
+        <image name="back-logo" extra="static">
             <pos>0.01 0.0.5</pos>
             <size>0.98 0.16</size>
             <path>./main/midia/header.png</path>
             <color>d2d0f2</color>
         </image>
 
-        <image name="back-gamelist" extra="true">
+        <image name="back-gamelist" extra="static">
             <pos>0.01 0.16</pos>
             <size>0.98 0.780</size>
             <path>./main/midia/back.png</path>
@@ -994,12 +998,13 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>200</zIndex>
         </text>
 
-        <image name="background">
+        <image name="background" extra="static">
             <tile>true</tile>
             <pos>0 0</pos>
             <origin>0 0</origin>
             <size>1 1</size>
             <path>./main/midia/background.png</path>
+            <zIndex>0</zIndex>
         </image>
 
         <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
@@ -1253,7 +1258,7 @@ Année de sortie : ${system.releaseYear}</text>
     </customView>
 
     <customView name="arcade" inherits="detailed">
-        <image name="md_background" extra="true">
+        <image name="md_background" extra="static">
             <path>./main/midia/fundo.png</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
@@ -1262,7 +1267,7 @@ Année de sortie : ${system.releaseYear}</text>
             <zIndex>5</zIndex>
         </image>
 
-        <image name="crt" extra="true">
+        <image name="crt" extra="static">
             <pos>0.74 0.60</pos>
             <origin>0.5 0.5</origin>
             <size>0.24 0.24</size>
@@ -1306,7 +1311,7 @@ Année de sortie : ${system.releaseYear}</text>
             <horizontalMargin>0.005</horizontalMargin>
         </textlist>
 
-        <image name="back-gamelist" extra="true">
+        <image name="back-gamelist" extra="static">
             <pos>0.01 0.19</pos>
             <size>0.35 0.73</size>
             <path>./main/midia/back.png</path>
@@ -1321,7 +1326,7 @@ Année de sortie : ${system.releaseYear}</text>
             <visible>false</visible>
         </helpsystem>
 
-        <image name="footer" extra="true">
+        <image name="footer" extra="static">
             <size>1 0.065</size>
             <pos>0 1</pos>
             <origin>0 1</origin>
@@ -1362,7 +1367,7 @@ Année de sortie : ${system.releaseYear}</text>
             <visible>false</visible>
         </text>
 
-        <image name="back-image" extra="true">
+        <image name="back-image" extra="static">
             <pos>0.37 0.05</pos>
             <size>0.36 0.55</size>
             <path>./main/midia/back.png</path>
@@ -1386,7 +1391,7 @@ Année de sortie : ${system.releaseYear}</text>
             <visible>false</visible>
         </rating>
 
-        <image name="back-information" extra="true">
+        <image name="back-information" extra="static">
             <pos>0.74 0.05</pos>
             <size>0.25 0.55</size>
             <path>./main/midia/back.png</path>
@@ -1398,7 +1403,7 @@ Année de sortie : ${system.releaseYear}</text>
             <visible>false</visible>
         </text>
 
-        <image name="back-description" extra="true">
+        <image name="back-description" extra="static">
             <pos>0.37 0.62</pos>
             <size>0.62 0.280</size>
             <path>./main/midia/back.png</path>
